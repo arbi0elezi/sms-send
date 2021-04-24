@@ -1,6 +1,5 @@
 ﻿using System.Threading.Tasks;
 using Amazon;
-using Amazon.Runtime;
 using Amazon.SimpleNotificationService;
 using Amazon.SimpleNotificationService.Model;
 using Root.DTO;
