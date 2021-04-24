@@ -12,7 +12,11 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="SendMessageController.cs" t="Include" />
+        </e>
+        <e p="DTO" t="Include">
+          <e p="MessageModel.cs" t="Include" />
+          <e p="Response.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -26,6 +30,10 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Root.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="ISendMessageService.cs" t="Include" />
+          <e p="SendMessageService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
